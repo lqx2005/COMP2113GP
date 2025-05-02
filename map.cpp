@@ -21,6 +21,7 @@ Map::Map(int h, int w) : height(h), width(w) {
         }
     }
 }
+
 // Map destruction
 Map::~Map() {
     // Delete the map to manage memory
@@ -29,6 +30,7 @@ Map::~Map() {
     }
     delete[] mp;
 }
+
 // Setting the position of the snake
 void Map::setSnake(Snake s) {
     // Mark all snake positions as BODY
@@ -37,16 +39,19 @@ void Map::setSnake(Snake s) {
         mp[x][y] = BODY;
     }
 }
+
 // Setting the position for cell
 void Map::setPosition(pair<int, int> coord, int TP) {
     auto [x, y] = coord;
     mp[x][y] = TP;
 }
+
 // Getting the position of the cells
 int Map::getPosition(pair<int, int> coord) {
     auto [x, y] = coord;
     return mp[x][y];
 }
+
 // Food generation logic
 pair<int, int> Map::generateFood() {
     vector<pair<int, int>> valid;
@@ -62,11 +67,13 @@ pair<int, int> Map::generateFood() {
     uniform_int_distribution<int> rng(0, int(valid.size()) - 1);
     return valid[rng(g)];
 }
+
 // Placing the food
 void Map::setFood() {
     pair<int, int> coord = generateFood();
     setPosition(coord, FOOD);
 }
+
 // Moving the snake
 int Map::makeMove(Snake &S) {
     pair<int, int> tail = S.tail();
@@ -84,6 +91,7 @@ int Map::makeMove(Snake &S) {
         return CRASH;
     }
 }
+
 // File I/O methods
 // Loading the map from file
 void Map::load(ifstream &fin) {
@@ -94,6 +102,7 @@ void Map::load(ifstream &fin) {
         }
     }
 }
+
 // Saving the map to file
 void Map::save(ofstream &fout) {
     fout << height <<" " << width << endl;
