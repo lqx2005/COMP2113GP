@@ -51,6 +51,7 @@ Features supported: <br/>
 -	0_NONBLOCK Flag: Applied to STDIN_FILENO (standard input) to prevent read() from blocking execution. Without this, the game would stall until a key is pressed. <br/>
 
 ## Compilation and execution instructions <br/>
+First of all, please remember to set the terminal into full screen. <br/>
 ### Compilation: <br/>
 Instruction: make main <br/>
 ### Run <br/>
