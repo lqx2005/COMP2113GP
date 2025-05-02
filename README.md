@@ -1,3 +1,4 @@
+## Please remember to set the terminal into full screen.
 ## SNAKE
 Group Member: <br/>
               Li Qixuan 3036289523 lqx2005 <br/>
@@ -13,10 +14,12 @@ Group Member: <br/>
 4. Compilation & Execution Instructions
 
 ## Game Description
+Video Link: https://youtu.be/YiVb3dsB2vQ?feature=shared <br/>
 Welcome to our text-based version of classic the game Snake. We are glad to present the arcade classic on your PC.<br/>
 Start as a small serpent with just 2 segments, move around the gameboard and toggle the direction of the snake with w/a/s/d.<br/>
 Eat fruits to get longer! Fruits are distributed randomly across the map. <br/>
-Watch out! The snake dies upon collides into its own body and the game terminates.  <br/>
+Watch out! The snake dies upon collides into its own body and the game terminates. <br/>
+There are three different difficulty levels for you to try.<br/>
 Try your best to make your snake as long as possible. We wish you a happy time playing SNAKE!
 
 
