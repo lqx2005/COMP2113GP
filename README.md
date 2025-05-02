@@ -53,9 +53,9 @@ Features supported: <br/>
 ## Compilation and execution instructions <br/>
 First of all, please remember to set the terminal into full screen. <br/>
 ### Compilation: <br/>
-Instruction: make main <br/>
+Bash instruction: make main <br/>
 ### Run <br/>
-Instruction: ./main <br/>
+Bash instruction: ./main <br/>
 ### Controls: <br/> 
 -	Use W/A/S/D keys to control the snake. W is for moving up, A is for moving left, S is for moving down, D is for moving right. <br/>
 -	Enter the Esc key to pause the game. While paused, use W/S to navigate menu options. Use Enter key to confirm selection. <br/>
