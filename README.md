@@ -59,5 +59,6 @@ Bash instruction: ./main <br/>
 ### Controls: <br/> 
 -	Use W/A/S/D keys to control the snake. W is for moving up, A is for moving left, S is for moving down, D is for moving right. <br/>
 -	Enter the Esc key to pause the game. While paused, use W/S to navigate menu options. Use Enter key to confirm selection. <br/>
+- After eating one food, the length of the snake will grow by one. <br/>
 -	The snake cannot reverse direction. <br/>
 -	The game wraps around the screen (if the snake goes out of one edge, it will reappears on the opposite side). <br/>
