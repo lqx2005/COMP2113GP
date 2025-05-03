@@ -19,7 +19,7 @@ Welcome to our text-based version of classic the game Snake. We are glad to pres
 Start as a small serpent with just 2 segments, move around the gameboard and toggle the direction of the snake with w/a/s/d.<br/>
 Eat fruits to get longer! Fruits are distributed randomly across the map. <br/>
 Watch out! The snake dies upon collides into its own body and the game terminates. <br/>
-There are three different difficulties for you to try.<br/>
+There are three different difficulties for you to explore.<br/>
 Try your best to make your snake as long as possible. We wish you a happy time playing SNAKE!
 
 
@@ -60,4 +60,4 @@ Bash instruction: ./main <br/>
 -	Use W/A/S/D keys to control the snake. W is for moving up, A is for moving left, S is for moving down, D is for moving right. <br/>
 -	Enter the Esc key to pause the game. While paused, use W/S to navigate menu options. Use Enter key to confirm selection. <br/>
 -	The snake cannot reverse direction. <br/>
--	The game wraps around the screen (exiting one edge reappears on the opposite side). <br/>
+-	The game wraps around the screen (if the snake goes out of one edge, it will reappears on the opposite side). <br/>
